@@ -1,9 +1,26 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "target": "es6",
-      "declaration": true,
-      "outDir": "./dist"
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "pretty": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "importHelpers": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
     },
     "include": [
       "src/**/*"
