@@ -1,4 +1,4 @@
-import * as Commander from 'commander';
+import * as Commander from "commander";
 
 export class Main {
 
@@ -9,7 +9,7 @@ export class Main {
         .description("Hello World!")
         .addArgument(new Commander.Argument("<name>", "Your name"))
         .option("-c, --capitalize", "Capitalizes the output")
-        .option("-a, --age <age>", "Your age") 
+        .option("-a, --age <age>", "Your age")
         .action((name, options) => {
             const output = options.capitalize ? name.toUpperCase() : name;
             console.log(`Hello ${output}!`);
@@ -18,7 +18,7 @@ export class Main {
             }
         })
         .parse(process.argv);
-      console.log('running...');
+      console.log("running...");
     }
   }
 
