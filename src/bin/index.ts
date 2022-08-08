@@ -3,7 +3,6 @@
 import { instance as main } from '../index';
 
 async function run() {
-  console.log("Hello World!");
   main.run();
 }
 
