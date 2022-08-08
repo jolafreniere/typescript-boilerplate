@@ -9,9 +9,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --sourceMap",
     "test": "mocha --exit --require ts-node/register test/*.ts",
-    "bin": "npm run build && node dist/bin/index.js"
+    "bin": "yarn run build && node dist/bin/index.js",
+    "watch": "nodemon -e ts --exec \"yarn build && node --inspect dist/bin/index.js joe --age 10\" --ignore \"dist\""
   },
   "license": "MIT",
   "dependencies": {
