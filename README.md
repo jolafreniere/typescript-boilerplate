@@ -1,5 +1,11 @@
 # Typescript Boilerplate
 
+## Setup
+
+```sh
+yarn
+```
+
 ## Usage
 
 ```sh
