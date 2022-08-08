@@ -6,6 +6,12 @@
 yarn
 ```
 
+## Test
+
+```sh
+yarn test
+```
+
 ## Usage
 
 ```sh
