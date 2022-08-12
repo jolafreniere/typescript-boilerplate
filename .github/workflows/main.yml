@@ -31,4 +31,4 @@ jobs:
       - run: npm ci
       - run: npm publish --registry=https://npm.pkg.github.com/
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
