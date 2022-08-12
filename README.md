@@ -9,6 +9,9 @@ yarn
 ## Test
 
 ```sh
+
+
+
 yarn test
 ```
 
@@ -19,3 +22,7 @@ yarn run bin Joe --age 20
 > Hello Joe!
 > You are 20 years old.
 ```
+
+## Boilerplate stuff
+
+- change npmrc to environment variable
