@@ -15,7 +15,7 @@
     "watch": "nodemon -e ts --exec \"yarn build && node --inspect dist/bin/index.js joe --age 10\" --ignore \"dist\""
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jolafreniere"
+    "@jolafreniere:registry": "https://npm.pkg.github.com/@jolafreniere"
   },
   "license": "MIT",
   "dependencies": {
